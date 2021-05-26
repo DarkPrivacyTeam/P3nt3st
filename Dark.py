@@ -124,9 +124,7 @@ class Opcoes(object):
 			site = input("site~# ")
 			who = whois.whois(site)
 			print(who.text)
-			xty = input('\n\ndigite enter pra sair: ')
-			if xty != 'kwjsjsjxkej':
-				break
+			time.sleep(100)
 		except Exception as erro:
 			print("NAO FOI POSSIVEL FAZE O SCAN ,VERIFIQUE O SITE E TENTE NOVAMENTE", str(erro))
 
@@ -217,9 +215,7 @@ class Opcoes(object):
 
 			--wizard Interface de assistente simples para usuários iniciantes
 			  """)
-			xvd = input("\n\ndigite enter pra sair: ")
-			if xvd != 'kwjxksnwidh':
-				break
+			time.sleep(10)
 
 		if sql == 2:
 			os.system('git clone https://github.com/sqlmapproject/sqlmap')
@@ -229,6 +225,4 @@ class Opcoes(object):
 		print ('gerando link...')
 		time.sleep(1)
 		print('\nlink da team: https://chat.whatsapp.com/E9JEBGe8MxL0BBB5GUnWXM')
-		xvd1 = input('\ndigite enter pra sair: ')
-		if xvd1 != 'jsjsjsjwhsj':
-			break
+		time.sleep(10)
