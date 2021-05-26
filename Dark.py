@@ -125,7 +125,7 @@ class Opcoes(object):
 			who = whois.whois(site)
 			print(who.text)
 			xty = input('\n\ndigite enter pra sair: ')
-			if xty != kwjsjsjxkej:
+			if xty != 'kwjsjsjxkej':
 				break
 		except Exception as erro:
 			print("NAO FOI POSSIVEL FAZE O SCAN ,VERIFIQUE O SITE E TENTE NOVAMENTE", str(erro))
@@ -217,8 +217,8 @@ class Opcoes(object):
 
 			--wizard Interface de assistente simples para usuários iniciantes
 			  """)
-			  xvd = input('\n\ndigite enter pra saie: ')
-			  if xvd != kwjxksnwidh:
+			  xvd = input('\n\ndigite enter pra sair: ')
+			  if xvd != 'kwjxksnwidh':
 			  	break
 
 		if sql == 2:
@@ -230,5 +230,5 @@ class Opcoes(object):
 		time.sleep(1)
 		print('\nlink da team: https://chat.whatsapp.com/E9JEBGe8MxL0BBB5GUnWXM')
 		xvd1 = input('\ndigite enter pra sair: ')
-		if xvd1 != jsjsjsjwhsj:
+		if xvd1 != 'jsjsjsjwhsj':
 			break
