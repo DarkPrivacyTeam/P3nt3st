@@ -214,6 +214,9 @@ class Opcoes(object):
 
 			--wizard Interface de assistente simples para usuários iniciantes
 			  """)
+			  xvd = input('\n\ndigite enter pra saie: ')
+			  if xvd != kwjxksnwidh:
+			  	break
 
 		if sql == 2:
 			os.system('git clone https://github.com/sqlmapproject/sqlmap')
@@ -222,4 +225,7 @@ class Opcoes(object):
 	def Team(self):
 		print ('gerando link...')
 		time.sleep(1)
-		print('\nlink da team: https://chat.whatsapp.com/LvyS72Kd6963K57CUp6VTt')
+		print('\nlink da team: https://chat.whatsapp.com/E9JEBGe8MxL0BBB5GUnWXM')
+		xvd1 = input('digite enter pra sair: ')
+		if xvd1 != jsjsjsjwhsj:
+			break
