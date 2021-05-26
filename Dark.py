@@ -217,9 +217,9 @@ class Opcoes(object):
 
 			--wizard Interface de assistente simples para usuários iniciantes
 			  """)
-			  xvd = input('\n\ndigite enter pra sair: ')
-			  if xvd != 'kwjxksnwidh':
-			  	break
+			xvd = input("\n\ndigite enter pra sair: ")
+			if xvd != 'kwjxksnwidh':
+				break
 
 		if sql == 2:
 			os.system('git clone https://github.com/sqlmapproject/sqlmap')
