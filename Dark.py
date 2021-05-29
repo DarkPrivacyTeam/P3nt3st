@@ -116,7 +116,7 @@ class Opcoes(object):
 				 respota = _socket.connect_ex((ip, porta))
 				 if respota  == 0: print(porta, "OPEN")
 				 elif respota != 0: print(porta, "CLOSED")
-				 time.sleep(100)
+		time.sleep(20)
 	def SiteScan(self):
 		os.system('pip install python-whois')
 		try:
@@ -124,8 +124,7 @@ class Opcoes(object):
 			site = input("site~# ")
 			who = whois.whois(site)
 			print(who.text)
-			time.sleep(100)
-			os.system('clear')
+			time.sleep(80)
 		except Exception as erro:
 			print("NAO FOI POSSIVEL FAZE O SCAN ,VERIFIQUE O SITE E TENTE NOVAMENTE", str(erro))
 
