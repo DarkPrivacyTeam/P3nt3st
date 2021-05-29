@@ -119,14 +119,11 @@ class Opcoes(object):
 		time.sleep(20)
 	def SiteScan(self):
 		os.system('pip install python-whois')
-		try:
-			ultilidades.Limpar()
-			site = input("site~# ")
-			who = whois.whois(site)
-			print(who.text)
-			time.sleep(80)
-		except Exception as erro:
-			print("NAO FOI POSSIVEL FAZE O SCAN ,VERIFIQUE O SITE E TENTE NOVAMENTE", str(erro))
+		ultilidades.Limpar()
+		site = input("site~# ")
+		who = whois.whois(site)
+		print(who.text)
+		time.sleep(80)
 
 	def SqlMap(self):
 		print ("[1] -> INSTRUÇOES EM PORTUGUES\n[2] -> SQLMAP")
