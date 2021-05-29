@@ -117,7 +117,7 @@ class Opcoes(object):
 				 if respota  == 0: print(porta, "OPEN")
 				 elif respota != 0: print(porta, "CLOSED")
 		time.sleep(20)
-	def SiteScan():
+	def SiteScan(self):
 		os.system('pip install python-whois')
 		ultilidades.Limpar()
 		site = input("site~# ")
