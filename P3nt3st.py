@@ -49,10 +49,10 @@ def Inicio():
       Inicio()
     if(escolha == 1):
       Opcoes.PegarCodigoFonte()
-      time.sleep(80)
       Inicio()
     if(escolha == 2):
       Opcoes.SiteScan()
+      time.sleep(80)
       Inicio()
     if(escolha == 3):
       Opcoes.SqlMap()
