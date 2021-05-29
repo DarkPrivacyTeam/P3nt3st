@@ -117,12 +117,12 @@ class Opcoes(object):
 				 if respota  == 0: print(porta, "OPEN")
 				 elif respota != 0: print(porta, "CLOSED")
 		time.sleep(20)
-	def SiteScan(self):
+	def SiteScan():
 		os.system('pip install python-whois')
 		ultilidades.Limpar()
 		site = input("site~# ")
-		who = whois.whois(site)
-		print(who.text)
+		who1 = whois.whois(site)
+		print(who1.text)
 		time.sleep(80)
 
 	def SqlMap(self):
