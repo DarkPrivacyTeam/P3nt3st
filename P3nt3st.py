@@ -1,4 +1,4 @@
-import platform, sys, os, platform
+import platform, sys, os, platform, time
 from Dark import Opcoes
 Opcoes = Opcoes()
 logo = """______           _                  
@@ -52,6 +52,7 @@ def Inicio():
       Inicio()
     if(escolha == 2):
       Opcoes.SiteScan()
+      time.sleep(80)
       Inicio()
     if(escolha == 3):
       Opcoes.SqlMap()
