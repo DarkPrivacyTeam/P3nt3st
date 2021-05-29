@@ -1,4 +1,4 @@
-import platform, sys, os, platform, time
+import platform, sys, os, platform, time, whois
 from Dark import Opcoes
 Opcoes = Opcoes()
 logo = """______           _                  
